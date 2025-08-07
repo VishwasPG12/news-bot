@@ -1,3 +1,17 @@
-.env
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environment
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# Sensitive data
+.env
+
+# Logs and DB
+*.log
+*.db
