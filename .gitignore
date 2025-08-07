@@ -1,17 +1,16 @@
-# Python cache
+# Ignore virtual env and Python cache
+venv/
+env/
 __pycache__/
 *.pyc
 
-# Virtual environment
-venv/
-env/
-
-# VSCode settings
-.vscode/
-
-# Sensitive data
+# Ignore secrets and config
 .env
 
-# Logs and DB
+# Ignore logs and DBs
 *.log
 *.db
+
+# Ignore IDE/editor junk
+.vscode/
+.idea/
