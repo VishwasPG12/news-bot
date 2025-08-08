@@ -33,16 +33,12 @@ cd news-bot
 
 Ensure you have Python installed, then run:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3. Create a .env file
+
 In the root folder, create a .env file and add:
 
-env
-Copy
-Edit
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_16_digit_app_password
 EMAIL_USER: The Gmail address used to send the news
@@ -50,9 +46,7 @@ EMAIL_USER: The Gmail address used to send the news
 EMAIL_PASS: The 16-digit app password generated from your Google account (used instead of your Gmail password)
 
 4. Run the bot
-bash
-Copy
-Edit
+
 python app.py
 You will receive an email with the top headlines.
 
@@ -73,9 +67,6 @@ URL to full article
 
 Example:
 
-yaml
-Copy
-Edit
 1. NASA plans new lunar mission 🌕
 Source: BBC
 Desc: NASA announces its next lunar rover...
