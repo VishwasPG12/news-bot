@@ -57,12 +57,11 @@ def job():
     print(all_summaries)
     send_email(all_summaries)
 
-# Schedule task
-# schedule.every().day.at("08:00").do(job)
+Schedule task
+schedule.every().day.at("08:00").do(job)
 
-# print("✅ Scheduler is running. Waiting for next job...")
+print("✅ Scheduler is running. Waiting for next job...")
 
-# while True:
-#     schedule.run_pending()
-#     time.sleep(60)
-job()
+while True:
+    schedule.run_pending()
+    time.sleep(60)
