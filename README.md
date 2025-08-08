@@ -23,11 +23,9 @@ A simple Python automation bot that fetches the latest news using NewsAPI and se
 ---
 
 ## Setup Instructions
-
+```bash
  1. Clone the repository
 
-
-```bash
 git clone https://github.com/<your-username>/news-bot.git
 cd news-bot
 
