@@ -1,16 +1,16 @@
-# Ignore virtual env and Python cache
+# ignore virtual env and Python cache
 venv/
 env/
 __pycache__/
 *.pyc
 
-# Ignore secrets and config
+# ignore important and config
 .env
 
-# Ignore logs and DBs
+# ignore logs and DBs
 *.log
 *.db
 
-# Ignore IDE/editor junk
+# ignore IDE/editor junk
 .vscode/
 .idea/
